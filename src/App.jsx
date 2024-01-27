@@ -7,7 +7,7 @@ import Top from './component/Top'
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 
 import Home from './pages/Home'
-import { Footer } from './component/sideproject/Footer'
+import { Footer } from './pages/Footer'
 import Genres from './component/Genres'
 import Books from './pages/Books'
 import { Login } from './pages/Login'
