@@ -10,16 +10,26 @@ export default function Signout() {
 onAuthStateChanged(auth,(user)=>{
 if(user){
   setUser(user);
-  console.log('logout');
+  console.log('success');
 
 }
 else{
+  console.log("log out");
+
   setUser(null);
 }
 
 })
 
-  })
+  },[])
+  if(user===null)
+  {
+    return(
+      <>
+      
+      </>
+    )
+  }
  return (
     <>
 

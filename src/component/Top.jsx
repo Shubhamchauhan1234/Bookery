@@ -4,6 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import Signout from '../pages/Signout'
 const navigation = [
   // { name: 'Bookery', href: '#', current: true },
   { name: 'Home', href: '/Home', current: false },
@@ -65,6 +66,10 @@ export default function Top({count}) {
                     ))}
                   </div>
                 </div>
+              </div>
+              <div>
+              {/* <button>Signout</button> */}
+              <Signout/>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <Link
